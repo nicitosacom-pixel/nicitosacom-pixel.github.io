@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeInfoApp — моя визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 35px 25px;
+            border-radius: 24px;
+            max-width: 380px;
+            width: 100%;
+            text-align: center;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #4da6ff;
+            margin-bottom: 15px;
+        }
+        h1 { margin: 10px 0 5px; font-size: 24px; }
+        .subtitle {
+            color: #4da6ff;
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .bio { line-height: 1.6; margin-bottom: 25px; color: #ddd; font-size: 15px; }
+        .contact {
+            background: rgba(77, 166, 255, 0.1);
+            border: 1px solid rgba(77, 166, 255, 0.3);
+            padding: 14px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        a { color: #4da6ff; text-decoration: none; font-weight: 600; }
+        .footer { margin-top: 20px; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="avatar" src="https://via.placeholder.com/120" alt="Фото">
+
+        <h1>Иван Петров</h1>
+        <div class="subtitle">Разработчик · Дизайнер</div>
+
+        <div class="bio">
+            Привет! Я делаю крутые проекты и всегда открыт к новым знакомствам.
+            Пиши — обсудим идеи, работу или просто поболтаем.
+        </div>
+
+        <div class="contact">
+            Telegram: <a href="https://t.me/твой_ник">@твой_ник</a>
+        </div>
+        <div class="contact">
+            Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+        </div>
+        <div class="contact">
+            Email: <a href="mailto:me@example.com">me@example.com</a>
+        </div>
+
+        <div class="footer">Powered by MeInfoApp</div>
+    </div>
+</body>
+</html>
